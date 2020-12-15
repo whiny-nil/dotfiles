@@ -1,3 +1,4 @@
+# I don't think most of this works
 # Replace This
 CRUNCH_MACHINE_NAME="DJ Awesomehost"
 
@@ -28,7 +29,7 @@ else
   fi
 fi
 CRUNCH_DIR_="$CRUNCH_DIR_COLOR%~\$(git_prompt_info)"
-CRUNCH_PROMPT="$CRUNCH_BRACKET_COLOR %{$fg[red]%}🐙 🐙 🐙 %{$reset_color%}: "
+CRUNCH_PROMPT="$CRUNCH_BRACKET_COLOR %{$fg[red]%}🐙🐙🐙 %{$reset_color%}: "
 
 # Put it all together!
 # PROMPT="$CRUNCH_GIT_DIRTY_COLOR|$CRUNCH_MACHINE_NAME|$CRUNCH_TIME_$CRUNCH_RVM_$CRUNCH_DIR_$CRUNCH_PROMPT%{$reset_color%}"
